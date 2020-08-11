@@ -1,4 +1,56 @@
 baseURL = "https://robok3000.github.io/myblog/"
 languageCode = "en-us"
-title = "fe"
+title = "Texter #EscritosConHumor :)"
 theme = "origin"
+author = "Andrey Parfenov"
+copyright = "© 2020, RETER Company for a better world"
+paginate = 4
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[params]
+  description = "Repositorio de ideas divertidas"
+  featured = true
+  cssonly = false
+
+  [params.socials]
+    facebook = ""
+    twitter = ""
+    instagram = ""
+    youtube = ""
+    github = ""
+    gitlab = ""
+    linkedin = ""
+    slack = ""
+    stackoverflow = ""
+    medium= ""
+
+[menu]
+
+    [[menu.main]]
+
+    identifier = "nosotros"
+    name = "nosotros"
+    url = "/nosotros/"
+    weight = 10
+
+    [[menu.main]]
+
+    identifier = "contacto"
+    name = "contacto"
+    url = "/contacto/"
+    weight = 10
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup]
+  [markup.highlight]
+    style = "github"
+    tabWidth = 4
+
+[markup.goldmark.renderer]
+unsafe = true
